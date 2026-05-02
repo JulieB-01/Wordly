@@ -1,0 +1,55 @@
+h1 {
+    display: flex;
+    justify-content: space-around;
+    background-color: azure;
+    padding: 20px;
+    color: orange;
+    font-size: xx-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    margin: 20px;
+}
+
+
+p {
+    display: block;
+    color: orange;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    line-height: 1.5;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.search-container input[type="text"] {
+        width: 50%;
+        padding: 12px;
+        margin: 15px;
+        border: 1px solid orange;
+        border-radius: 10px;
+        box-sizing: border-box;
+        margin-left: 25%;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: orange;
+}
+
+#audio {
+    width: 50%;
+    margin-left: 25%;
+    outline: none;
+}
+
+

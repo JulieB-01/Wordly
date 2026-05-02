@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Word Search</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1 id="page-title">Wordly</h1>
+        <p class="intro">Type any word in the search bar.</p>
+
+        <form id="search-form">
+            <div class="search-container">
+                <input type="text" id="text-input" placeholder="Type word to search" required>
+                <button type="submit">Search</button>
+            </div>
+        </form>
+        <div id="results-display">
+            <p class="text" id="text">Text input</p>
+            <p class="definition" id="definition">Definition</p>
+            <p class="synonyms" id="synonyms">Synonyms</p>
+        </div>
+
+        <div id="phonetics">
+            <p id="pronunciation">Pronunciation:</p>
+            <audio id="audio" controls>
+                <source id="audioSource" src="" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+
+        </div>
+
+        <script src="index.js"></script>
+    </body>
+</html>

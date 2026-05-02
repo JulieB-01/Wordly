@@ -1,0 +1,27 @@
+{
+  "name": "wordly",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JulieB-01/Wordly.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/JulieB-01/Wordly/issues"
+  },
+  "homepage": "https://github.com/JulieB-01/Wordly#readme",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.3.0",
+    "globals": "^17.6.0",
+    "jest": "^30.3.0"
+  }
+}
